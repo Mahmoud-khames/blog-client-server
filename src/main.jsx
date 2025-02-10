@@ -6,7 +6,7 @@ import HomePage from "./routes/HomePage.jsx";
 import PostListPage from "./routes/PostListPage.jsx";
 import SinglePostPage from "./routes/SinglePostPage.jsx";
 import LoginPage from "./routes/LoginPage.jsx";
-const Writer = lazy(() => import("./routes/writer.jsx"));
+const Writer = lazy(() => import("./routes/Writer.jsx"));
 import RegisterPage from "./routes/RegisterPage.jsx";
 import { createBrowserRouter } from "react-router";
 import { RouterProvider } from "react-router-dom";
