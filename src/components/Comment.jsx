@@ -66,4 +66,4 @@ const Comment = ({ comment, postId }) => {
   );
 };
 
-export default Comment;
+export default Comment; 
