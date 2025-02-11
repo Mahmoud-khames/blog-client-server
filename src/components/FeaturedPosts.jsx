@@ -57,7 +57,7 @@ console.log("featuredPosts"  , data);
             <Image
               src={posts[1].img}
               className="rounded-3xl object-cover w-full h-full"
-              w="298"
+              W="298"
             />
           </div>}
           {/* details and title */}
@@ -83,7 +83,7 @@ console.log("featuredPosts"  , data);
             <Image
               src={posts[2].img}
               className="rounded-3xl object-cover w-full h-full"
-              w="298"
+              W="298"
             />
           </div>}
           {/* details and title */}
@@ -109,7 +109,7 @@ console.log("featuredPosts"  , data);
             <Image
               src={posts[3].img}
               className="rounded-3xl object-cover w-full h-full"
-              w="298"
+              W="298"
             />
           </div>}
           {/* details and title */}

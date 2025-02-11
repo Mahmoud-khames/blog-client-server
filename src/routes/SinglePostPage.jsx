@@ -44,7 +44,7 @@ const SinglePostPage = () => {
         </div>
         {data.img && (
           <div className="hidden lg:block w-2/5">
-            <Image src={data.img} w="600" className="rounded-2xl" />
+            <Image src={data.img} W="600" className="rounded-2xl" />
           </div>
         )}
       </div>
@@ -146,8 +146,8 @@ const SinglePostPage = () => {
                 <Image
                   src={data.user.img}
                   className="w-12 h-12 rounded-full object-cover"
-                  w="48"
-                  h="48"
+                  W="48"
+                  H="48"
                 />
               )}
               <Link className="text-blue-800">{data.user.username}</Link>
